@@ -39,4 +39,14 @@ public class UsuarioDAO {
 		
 	}
 
+	public void deletaConta(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Object listaUsuarios() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
