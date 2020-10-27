@@ -59,19 +59,19 @@
 				        <form action='Register' method="post" id="regform">
 							<fieldset style= "margin:auto text-align:center">
 								<div>
-									<label for="usnm">Username</label> 
+									<label for="nome">Nome</label> 
 									<input class="theinput" type="text" name="nome" id="nome" placeholder="Entre com nome de usuário" required/>
 								</div>		
 								<div>
-									<label for="eml">Email</label> 
+									<label for="email">Email</label> 
 									<input class="theinput" type="text" name="email" id="email" placeholder="Entre com seu Email" required/>
 								</div>			
 								<div>
-									<label for="psword">Password</label> 
+									<label for="senha">Senha</label> 
 									<input class="theinput" type="password" id="senha" name="senha" placeholder="Entre com sua senha" required/>
 								</div>			
 								<div>
-									<label for="cfmpsword">Confirm Password</label> 
+									<label for="cfmsenha">Confirmar Senha</label> 
 									<input class="theinput" type="password" id="cfmsenha" name="cfmsenha" placeholder="Confirme a senha" required/>
 								</div> 
 								<br>
