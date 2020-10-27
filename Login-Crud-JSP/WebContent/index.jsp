@@ -24,11 +24,11 @@
 				<legend class="legend-bold" >Login</legend>
 					<div>					
 						<label>Username:</label>
-						<input class="theinput" type="text" placeholder= "Enter email" name="email" required/>
+						<input class="theinput" type="text" placeholder= "Entre com seu email" name="email" required/>
 					</div>
 					<div>
 						<label>Password:</label>
-						<input class="theinput" type="password" placeholder = "Enter password" name="psword" required/>
+						<input class="theinput" type="password" placeholder = "Entre com sua senha" name="senha" required/>
 					</div>				
 					<br>
 					<input class="submit" type="submit" value="Login"/> 
@@ -39,8 +39,8 @@
 			<br>
 			<!-- Login box Footer -->
 			<div id="footer2">
-				<p style="color:black"> New? <a href="#registerModal" id="registerLink">Register</a></p>			
-				<a href="Login?action=listUsers">Admin page</a>
+				<p style="color:black"> Novo? <a href="#registerModal" id="registerLink">Registrar</a></p>			
+				<a href="Login?action=listaUsuarios">Página Adm</a>
 			</div>
 		</div>
 		<!-- Modal for registration-->
@@ -60,19 +60,19 @@
 							<fieldset style= "margin:auto text-align:center">
 								<div>
 									<label for="usnm">Username</label> 
-									<input class="theinput" type="text" name="username" id="usnm" placeholder="Enter Username" required/>
+									<input class="theinput" type="text" name="nome" id="nome" placeholder="Entre com nome de usuário" required/>
 								</div>		
 								<div>
 									<label for="eml">Email</label> 
-									<input class="theinput" type="text" name="email" id="eml" placeholder="Enter Email" required/>
+									<input class="theinput" type="text" name="email" id="email" placeholder="Entre com seu Email" required/>
 								</div>			
 								<div>
 									<label for="psword">Password</label> 
-									<input class="theinput" type="password" id="psword" name="psword" placeholder="Enter Password" required/>
+									<input class="theinput" type="password" id="senha" name="senha" placeholder="Entre com sua senha" required/>
 								</div>			
 								<div>
 									<label for="cfmpsword">Confirm Password</label> 
-									<input class="theinput" type="password" id="cfmpsword" name="cfmpsword" placeholder="Confirm Password" required/>
+									<input class="theinput" type="password" id="cfmsenha" name="cfmsenha" placeholder="Confirme a senha" required/>
 								</div> 
 								<br>
 								<input class="submit" type="submit" value="Register"/> 
@@ -92,9 +92,9 @@
 				//JQuery confirms password is equal to confirm password field
 				$("#regform").validate({
 					rules: {				
-						cfmpsword : 
+						cfmsenha : 
 						{
-							equalTo: "#psword"
+							equalTo: "#senha"
 						}			
 					}				
 				});
