@@ -73,7 +73,7 @@ public class LoginController extends HttpServlet {
 		}
 		
 		else {
-			pwOut.print("<p style=\"color:red\">Incorrect Username or Password!</p>");
+			pwOut.print("<p style=\"color:red\">Usuário ou senha incorretos!</p>");
 			RequestDispatcher view = request.getRequestDispatcher("/index.jsp");	
 			view.include(request, response);
 			
