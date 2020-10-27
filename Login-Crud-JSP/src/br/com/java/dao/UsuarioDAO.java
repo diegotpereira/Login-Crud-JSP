@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import br.com.java.connection.DBUtil;
+import br.com.java.model.Usuario;
 
 
 
@@ -45,6 +46,16 @@ public class UsuarioDAO {
 	}
 
 	public Object listaUsuarios() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Usuario getUsuarioByID(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Usuario usuarioSession(String email) {
 		// TODO Auto-generated method stub
 		return null;
 	}
