@@ -64,7 +64,7 @@
 								</div>		
 								<div>
 									<label for="email">Email</label> 
-									<input class="theinput" type="text" name="email" id="email" placeholder="Entre com seu Email" required/>
+									<input class="theinput" type="text" id="email" name="email"  placeholder="Entre com seu Email" required/>
 								</div>			
 								<div>
 									<label for="senha">Senha</label> 
