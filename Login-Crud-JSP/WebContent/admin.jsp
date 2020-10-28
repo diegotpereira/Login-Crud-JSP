@@ -19,8 +19,8 @@
 <!-- Page Header -->
 	<div class= "top-header">
 	<!-- Link to Home page -->
-		<span class= "home-logo"><a href="/JSPLogin"></a></span>
-		<h1 class="admin-header">Bem Vindo Admin</h1>
+		<span class= "home-logo"><a href="/Login-Crud-JSP"></a></span>
+		<h1 class="admin-header">Bem Vindo Administrador</h1>
 	</div>
 	<!-- User Table -->
 	<div class="container">
@@ -44,7 +44,7 @@
 							<td><c:out value= "${usuario.nome}"/></td>
 							<td><c:out value="${usuario.senha}"/></td>
 							<td><c:out value= "${usuario.email}"/></td>
-							<td><a data-toggle="modal" href="#editModal" id="<c:out value="${usuario.id}"/>" class="editar-link" >Editar</a></td>
+							<td><a data-toggle="modal" href="#editModal" id="<c:out value="${usuario.id}"/>" class="edit-link" >Editar</a></td>
 						<td><a href="Login?action=remove&id=<c:out value="${usuario.id}"/>">Remover</a></td>
 						</tr>
 					</c:forEach>
@@ -77,8 +77,8 @@
 		<script>
 			$(document).ready(function(){
 				//Sends id to servelet when Edit link is clicked
-				$(".editar-link").click(function(){
-					var userid= $(this).attr('id');
+				$(".edit-link").click(function(){
+					var id= $(this).attr('id');
 					var action= 'editar';
 					var data= "action="+ action + "&id=" +id;
 					//Request Get, load response(edit Form ) in modal

@@ -23,11 +23,11 @@
 				<fieldset style= "margin:auto text-align:center">
 				<legend class="legend-bold" >Login</legend>
 					<div>					
-						<label>Username:</label>
+						<label>Email:</label>
 						<input class="theinput" type="text" placeholder= "Entre com seu email" name="email" required/>
 					</div>
 					<div>
-						<label>Password:</label>
+						<label>Senha:</label>
 						<input class="theinput" type="password" placeholder = "Entre com sua senha" name="senha" required/>
 					</div>				
 					<br>
@@ -39,8 +39,8 @@
 			<br>
 			<!-- Login box Footer -->
 			<div id="footer2">
-				<p style="color:black"> Novo? <a href="#registerModal" id="registerLink">Registrar</a></p>			
-				<a href="Login?action=listaUsuarios">Página Adm</a>
+				<p style="color:black"> Novo? <a href="#registerModal" id="registerLink">Cadastrar</a></p>			
+				<a href="Login?action=listaUsuarios">Página Administrador</a>
 			</div>
 		</div>
 		<!-- Modal for registration-->
@@ -51,7 +51,7 @@
 			      <div class="modal-content">
 				       <div class="modal-header" style="padding:25px 40px;">
 				        <button type="button" class="close" data-dismiss="modal">&times;</button>
-				        <h4> Register</h4>
+				        <h4> Cadastro de Usuário</h4>
 				       </div>
 				       <!-- Modal body-->
 				       <div class="modal-body" style="padding:30px 40px;">

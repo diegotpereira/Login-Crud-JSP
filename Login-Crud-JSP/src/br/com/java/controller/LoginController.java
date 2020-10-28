@@ -34,7 +34,7 @@ public class LoginController extends HttpServlet {
 		String redirectPage="/index.jsp";
 		String action = request.getParameter("action");
 		
-		if (action.equalsIgnoreCase("remover")) {
+		if (action.equalsIgnoreCase("remove")) {
 			int id = Integer.parseInt(request.getParameter("id"));
 			dao.deletaConta(id);
 			redirectPage= ADMINPG;

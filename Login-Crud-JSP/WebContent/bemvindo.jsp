@@ -7,7 +7,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Welcome <%=session.getAttribute("username")%></title>
+<title>Bem Vindo <%=session.getAttribute("nome")%></title>
 <link rel="stylesheet" href="thestyles2.css">
 </head>
 <body>
@@ -20,13 +20,13 @@
 	}
 %>
 <!-- Page Header -->
-<div class= "top-header"><span class= "home-logo"><a href="/JSPLogin"></a></span></div>
+<div class= "top-header"><span class= "home-logo"><a href="/Login-Crud-JSP"></a></span></div>
 
 <div class="container">
-<!-- Use session variables to print username and email -->
+<!-- Use variáveis ​​de sessão para imprimir nome de usuário e e-mail -->
 	<div class="content welcome-text">
-			<p><%=session.getAttribute("nome")%> Your login was successful!:)</p>
-			<p> You are registered under this email <%=session.getAttribute("email")%> </p>
+			<p><%=session.getAttribute("nome")%>Seu login foi bem sucedido!:)</p>
+			<p> Você está registrado neste e-mail <%=session.getAttribute("email")%> </p>
 			<br>
 		
 	</div>

@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Edit User</title>
+<title>Alterar Usuário</title>
 </head>
 <body>
 <!--Page is Loaded in admin page modal from Login Servlet  -->
@@ -25,7 +25,7 @@
 									<input class="theinput" type="text" name="senha" id="senha" value="<c:out value ="${usuario.senha}"/>" required/>	
 								</div>		
 								<br>
-								<input class="back-home-btn" type="submit" value="Update"/> 
+								<input class="back-home-btn" type="submit" value="Update" name = "Alterar"/> 
 							</fieldset>		
 						</form>
 
