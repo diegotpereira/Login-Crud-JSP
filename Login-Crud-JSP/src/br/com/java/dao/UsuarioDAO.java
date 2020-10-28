@@ -22,13 +22,13 @@ public class UsuarioDAO {
 		conn= DBUtil.getConnection();
 	}
 	
-	public boolean validaLogin(String usuario,String senha){
+	public boolean validaLogin(String em,String senha){
 		
 		boolean logado = false;
 		
 		try {
 			PreparedStatement ps = conn.prepareStatement("select * from usuario where email=? and senha=?");
-			ps.setString(1, usuario);
+			ps.setString(1, em);
 			ps.setString(2, senha);
 			
 			ResultSet rs = ps.executeQuery();
