@@ -16,7 +16,7 @@
 			<p><label for="nome">Nome</label> <input type="text" name="nome" id="nome" required/></p>		
 			<p><label for="email">Email</label> <input type="text" name="email" id="email" required/></p>			
 			<p><label for="senha">Senha</label> <input type="password" id="senha" name="senha" required/></p>			
-			<p><label for="cfmsenha">Confirmar Senha</label> <input type="password" id="senha" name="cfmsenha" required/></p> 
+			<p><label for="cfmsenha">Confirmar Senha</label> <input type="password" id="cfmsenha" name="cfmsenha" required/></p> 
 			<br>
 			<input class="submit" type="submit" value="Register"/> 
 		</fieldset>		
