@@ -15,7 +15,7 @@ public class DBUtil {
 		{
 			try
 			{
-				String url = "jdbc:mysql://localhost:3306/dbcadastrojspmaster?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false";
+				String url = "jdbc:mysql://localhost:3306/dbcadastrologinjspmaster?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false";
 		       
 				String driver = "com.mysql.cj.jdbc.Driver";
 				String username= "root";
