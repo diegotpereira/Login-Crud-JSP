@@ -44,7 +44,7 @@
 							<td><c:out value= "${usuario.nome}"/></td>
 							<td><c:out value="${usuario.senha}"/></td>
 							<td><c:out value= "${usuario.email}"/></td>
-							<td><a data-toggle="modal" href="#editModal" id="<c:out value="${usuario.id}"/>" class="edit-link" >Editar</a></td>
+							<td><a data-toggle="modal" href="#editModal" id="<c:out value="${usuario.id}"/>" class="editar-link" >Editar</a></td>
 						<td><a href="Login?action=remove&id=<c:out value="${usuario.id}"/>">Remover</a></td>
 						</tr>
 					</c:forEach>

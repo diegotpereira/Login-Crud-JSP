@@ -15,7 +15,7 @@
 //If User is not logged in redirect to home page
 	if (session != null)
 	{
-		if(session.getAttribute("username")==null)
+		if(session.getAttribute("nome")==null)
 			response.sendRedirect("index.jsp");		
 	}
 %>
@@ -25,7 +25,7 @@
 <div class="container">
 <!-- Use session variables to print username and email -->
 	<div class="content welcome-text">
-			<p><%=session.getAttribute("username")%> Your login was successful!:)</p>
+			<p><%=session.getAttribute("nome")%> Your login was successful!:)</p>
 			<p> You are registered under this email <%=session.getAttribute("email")%> </p>
 			<br>
 		

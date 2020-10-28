@@ -17,7 +17,7 @@
 									<input class="theinput" type="text" readonly="readonly" name="id" id="id" value="<c:out value ="${usuario.id}"/>" />
 								</div>
 								<div>
-									<label for="usnm">Nome</label>
+									<label for="nome">Nome</label>
 									<input class="theinput" type="text" name="nome" id="nome" value="<c:out value ="${usuario.nome}"/>" required/>	
 								</div>
 								<div>	

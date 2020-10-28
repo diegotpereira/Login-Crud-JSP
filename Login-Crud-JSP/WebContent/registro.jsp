@@ -13,7 +13,7 @@
 <body>
 	<form action='Register' method="post" id="regform">
 		<fieldset style= "margin:auto text-align:center">
-			<p><label for="nome">Nome</label> <input type="text" name="nome" id="usnm" required/></p>		
+			<p><label for="nome">Nome</label> <input type="text" name="nome" id="nome" required/></p>		
 			<p><label for="email">Email</label> <input type="text" name="email" id="email" required/></p>			
 			<p><label for="senha">Senha</label> <input type="password" id="senha" name="senha" required/></p>			
 			<p><label for="cfmsenha">Confirmar Senha</label> <input type="password" id="senha" name="senha" required/></p> 
